@@ -1,0 +1,161 @@
+
+body{
+  background: #413b41;
+}
+
+
+.text-linux {
+  color: #F2A71B !important;    
+}
+
+.btn-linux {
+  background-color: #D97904;
+  color: white; 
+}
+
+.btn-linux:hover{
+  background-color: #fdbb2d;
+}
+
+#header img{
+  width: 80px;
+}
+
+#main .carousel-inner img{
+  max-height: 95vh;
+  object-fit: cover;
+  filter: grayscale(0%);
+}
+
+#vestimenta .carousel-inner img{
+  max-height: 65vh;
+  object-fit: contain;
+  filter: grayscale(20%);
+}
+
+
+
+#carouselExampleCaptions{
+  position: relative;
+}
+
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel .overlay .container, 
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#place-time {
+  background-color: #404040;
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+#footer{
+  background-image: linear-gradient(to right top, #6bd175, #00b389, #009290, #007085, #004f6a, #11516c, #1c536f, #255571, #147c9a, #00a5be, #00d0da, #1bfced);
+}
+
+#footer a{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+form {
+  width: 400px;
+  margin: auto;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container1{
+  margin-top: 0%;
+  width: 1100px;
+  height: 500px;
+  margin-left: 9%;
+}
+.img-text{
+  width: 100%;
+  height: 200px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  background: #262626;
+  color: #fff;
+  border-radius: 20px;
+}
+.img-text h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.img-text p{
+  font-style: 14px;
+}
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+.img-area{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  top: 15px;
+  left: 125px;
+  border-radius: 50%;
+  text-align: center;
+}
+.img-area img{
+  width: 100%;
+  
+}
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom: -70px;
+}
+.carousel-indicators li{
+background: #000;
+border-radius: 50%;
+width: 15px;
+height: 15px;
+}
+.carousel-indicators .active{
+  background: #fff;
+}
+
+
+
+
+
